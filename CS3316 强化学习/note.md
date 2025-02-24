@@ -13,15 +13,15 @@
 
 large sequential model
 
-![image-20250224160852354](C:\Users\15508\AppData\Roaming\Typora\typora-user-images\image-20250224160852354.png)
+![image-20250224160852354](D:\SJTU\SJTU-Courses\CS3316 强化学习\image\image-20250224160852354.png)
 
-![image-20250224160906587](C:\Users\15508\AppData\Roaming\Typora\typora-user-images\image-20250224160906587.png)
+![image-20250224160906587](D:\SJTU\SJTU-Courses\CS3316 强化学习\image\image-20250224160906587.png)
 
 有监督学习--预测接下来发生什么
 
 解决样本复杂度的需求（基于模拟环境）
 
-![image-20250224161035260](C:\Users\15508\AppData\Roaming\Typora\typora-user-images\image-20250224161035260.png)
+![image-20250224161035260](D:\SJTU\SJTU-Courses\CS3316 强化学习\image\image-20250224161035260.png)
 
 预测往后的encoder和decoder，循环
 
@@ -29,39 +29,39 @@ encoder离散化处理（聚类的token）RNN prediction更好 --> Sequence Mode
 
 DreamerV3
 
-![image-20250224161338056](C:\Users\15508\AppData\Roaming\Typora\typora-user-images\image-20250224161338056.png)
+![image-20250224161338056](D:\SJTU\SJTU-Courses\CS3316 强化学习\image\image-20250224161338056.png)
 
 改变强化学习的范式 -- 目标 default goal ：maximum argument prediction reward function
 
 具身智能 VRA model 写论文 LLMs -- prompt --Agent
 
-![image-20250224161637003](C:\Users\15508\AppData\Roaming\Typora\typora-user-images\image-20250224161637003.png)
+![image-20250224161637003](D:\SJTU\SJTU-Courses\CS3316 强化学习\image\image-20250224161637003.png)
 
 achieve goal1 上层产生goal，下层产生action和新的goal
 
-![image-20250224161740712](C:\Users\15508\AppData\Roaming\Typora\typora-user-images\image-20250224161740712.png)
+![image-20250224161740712](D:\SJTU\SJTU-Courses\CS3316 强化学习\image\image-20250224161740712.png)
 
 Imitation Learning： 调goal本身：人为驾驶车辆轨迹数据：policy 不如Experts
 
 逆向学到reward function -- 正向强化学习-- tune --训练（RHLF）
 
-![image-20250224161954946](C:\Users\15508\AppData\Roaming\Typora\typora-user-images\image-20250224161954946.png)
+![image-20250224161954946](D:\SJTU\SJTU-Courses\CS3316 强化学习\image\image-20250224161954946.png)
 
 London 做的极致 轨迹数据--逆向强化学习/模仿学习 -- 指导驾驶策略-- action
 
-![image-20250224162127959](C:\Users\15508\AppData\Roaming\Typora\typora-user-images\image-20250224162127959.png)
+![image-20250224162127959](D:\SJTU\SJTU-Courses\CS3316 强化学习\image\image-20250224162127959.png)
 
 其他智能体正在学习 - non -stationary（环境也在变，对于每一个智能体而言都在变/博弈）/ dynamic（state tra）
 
-![image-20250224162304826](C:\Users\15508\AppData\Roaming\Typora\typora-user-images\image-20250224162304826.png)
+![image-20250224162304826](D:\SJTU\SJTU-Courses\CS3316 强化学习\image\image-20250224162304826.png)
 
 
 
-![image-20250224162400151](C:\Users\15508\AppData\Roaming\Typora\typora-user-images\image-20250224162400151.png)
+![image-20250224162400151](D:\SJTU\SJTU-Courses\CS3316 强化学习\image\image-20250224162400151.png)
 
 
 
-![image-20250224162423951](C:\Users\15508\AppData\Roaming\Typora\typora-user-images\image-20250224162423951.png)
+![image-20250224162423951](D:\SJTU\SJTU-Courses\CS3316 强化学习\image\image-20250224162423951.png)
 
 优化过程不适合跨任务泛化/NLP 大sequence model基于范式做泛化
 
@@ -105,7 +105,7 @@ GPT-4  Technical Report
 
 
 
-![image-20250224170436108](C:\Users\15508\AppData\Roaming\Typora\typora-user-images\image-20250224170436108.png)
+![image-20250224170436108](D:\SJTU\SJTU-Courses\CS3316 强化学习\image\image-20250224170436108.png)
 
 DQN比MLA的创新弱多了
 
@@ -127,7 +127,7 @@ Agent== LLM + interaction from fine-tuning + 交互环境（与调prompt无关�
 
 强化学习的data来自于环境和智能体的交互/Agent 等级比较高/interaction产生新的知识 trade-off
 
-![image-20250224171426347](C:\Users\15508\AppData\Roaming\Typora\typora-user-images\image-20250224171426347.png)
+![image-20250224171426347](D:\SJTU\SJTU-Courses\CS3316 强化学习\image\image-20250224171426347.png)
 
 舒适区（利用最大化但不容易以最高速率变强） 
 
@@ -135,13 +135,13 @@ Agent== LLM + interaction from fine-tuning + 交互环境（与调prompt无关�
 
 T型人才：视野宽，某一领域精深
 
-![image-20250224171803797](C:\Users\15508\AppData\Roaming\Typora\typora-user-images\image-20250224171803797.png)
+![image-20250224171803797](D:\SJTU\SJTU-Courses\CS3316 强化学习\image\image-20250224171803797.png)
 
 多臂老虎机（multi-armed bandit）问题的形式化描述
 
 online learning
 
-![image-20250224171931453](C:\Users\15508\AppData\Roaming\Typora\typora-user-images\image-20250224171931453.png)
+![image-20250224171931453](D:\SJTU\SJTU-Courses\CS3316 强化学习\image\image-20250224171931453.png)
 
 无state，只有认知（information state） 对于R（reward）的认知
 
@@ -149,21 +149,21 @@ online learning
 
 which arm to take
 
-![image-20250224172145211](C:\Users\15508\AppData\Roaming\Typora\typora-user-images\image-20250224172145211.png)
+![image-20250224172145211](D:\SJTU\SJTU-Courses\CS3316 强化学习\image\image-20250224172145211.png)
 
-![image-20250224172211267](C:\Users\15508\AppData\Roaming\Typora\typora-user-images\image-20250224172211267.png)
+![image-20250224172211267](D:\SJTU\SJTU-Courses\CS3316 强化学习\image\image-20250224172211267.png)
 
-![image-20250224172258883](C:\Users\15508\AppData\Roaming\Typora\typora-user-images\image-20250224172258883.png)
+![image-20250224172258883](D:\SJTU\SJTU-Courses\CS3316 强化学习\image\image-20250224172258883.png)
 
 懊悔值（相比于最优的收益的差）
 
-![image-20250224172446204](C:\Users\15508\AppData\Roaming\Typora\typora-user-images\image-20250224172446204.png)
+![image-20250224172446204](D:\SJTU\SJTU-Courses\CS3316 强化学习\image\image-20250224172446204.png)
 
 trade-off sublinear regret 下界是log t
 
 distribution很接近，则更难区分出来
 
-![image-20250224172732253](C:\Users\15508\AppData\Roaming\Typora\typora-user-images\image-20250224172732253.png)
+![image-20250224172732253](D:\SJTU\SJTU-Courses\CS3316 强化学习\image\image-20250224172732253.png)
 
 ε -greedy
 
@@ -171,34 +171,34 @@ distribution很接近，则更难区分出来
 
 ε -greedy policy to uniform / 积累了稳定的regret -- 衰减regret（exploration）
 
-![image-20250224172936444](C:\Users\15508\AppData\Roaming\Typora\typora-user-images\image-20250224172936444.png)
+![image-20250224172936444](D:\SJTU\SJTU-Courses\CS3316 强化学习\image\image-20250224172936444.png)
 
-![image-20250224173140468](C:\Users\15508\AppData\Roaming\Typora\typora-user-images\image-20250224173140468.png)
+![image-20250224173140468](D:\SJTU\SJTU-Courses\CS3316 强化学习\image\image-20250224173140468.png)
 
 Naive method
 
 New：早期
 
-![image-20250224173208203](C:\Users\15508\AppData\Roaming\Typora\typora-user-images\image-20250224173208203.png)
+![image-20250224173208203](D:\SJTU\SJTU-Courses\CS3316 强化学习\image\image-20250224173208203.png)
 
-![image-20250224173313126](C:\Users\15508\AppData\Roaming\Typora\typora-user-images\image-20250224173313126.png)
+![image-20250224173313126](D:\SJTU\SJTU-Courses\CS3316 强化学习\image\image-20250224173313126.png)
 
 不确定性的测度
 
-![image-20250224173406341](C:\Users\15508\AppData\Roaming\Typora\typora-user-images\image-20250224173406341.png)
+![image-20250224173406341](D:\SJTU\SJTU-Courses\CS3316 强化学习\image\image-20250224173406341.png)
 
 Standard Deviation
 
 Sub-linear regret
 
-![image-20250224173520555](C:\Users\15508\AppData\Roaming\Typora\typora-user-images\image-20250224173520555.png)
+![image-20250224173520555](D:\SJTU\SJTU-Courses\CS3316 强化学习\image\image-20250224173520555.png)
 
-![image-20250224173740349](C:\Users\15508\AppData\Roaming\Typora\typora-user-images\image-20250224173740349.png)
+![image-20250224173740349](D:\SJTU\SJTU-Courses\CS3316 强化学习\image\image-20250224173740349.png)
 
-![image-20250224173918153](C:\Users\15508\AppData\Roaming\Typora\typora-user-images\image-20250224173918153.png)
+![image-20250224173918153](D:\SJTU\SJTU-Courses\CS3316 强化学习\image\image-20250224173918153.png)
 
 采样范式一致
 
-![image-20250224174009421](C:\Users\15508\AppData\Roaming\Typora\typora-user-images\image-20250224174009421.png)
+![image-20250224174009421](D:\SJTU\SJTU-Courses\CS3316 强化学习\image\image-20250224174009421.png)
 
-![image-20250224174140123](C:\Users\15508\AppData\Roaming\Typora\typora-user-images\image-20250224174140123.png)
+![image-20250224174140123](D:\SJTU\SJTU-Courses\CS3316 强化学习\image\image-20250224174140123.png)
