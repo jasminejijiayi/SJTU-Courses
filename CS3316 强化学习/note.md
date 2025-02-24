@@ -13,15 +13,15 @@
 
 large sequential model
 
-![image-20250224160852354](https://github.com/jasminejijiayi/CS3316 强化学习/image/image-20250224160852354.png?raw=true)
+![image-20250224160852354](https://github.com/jasminejijiayi/SJTU-Courses/CS3316 强化学习/image/image-20250224160852354.png?raw=true)
 
-![image-20250224160906587](https://github.com/jasminejijiayi/CS3316 强化学习/image/image-20250224160906587.png?raw=true)
+![image-20250224160906587](https://github.com/jasminejijiayi/SJTU-Courses/CS3316 强化学习/image/image-20250224160906587.png?raw=true)
 
 有监督学习--预测接下来发生什么
 
 解决样本复杂度的需求（基于模拟环境）
 
-![image-20250224161035260](https://github.com/jasminejijiayi/CS3316 强化学习/image/image-20250224161035260.png?raw=true)
+![image-20250224161035260](https://github.com/jasminejijiayi/SJTU-Courses/CS3316 强化学习/image/image-20250224161035260.png?raw=true)
 
 预测往后的encoder和decoder，循环
 
@@ -29,39 +29,39 @@ encoder离散化处理（聚类的token）RNN prediction更好 --> Sequence Mode
 
 DreamerV3
 
-![image-20250224161338056](https://github.com/jasminejijiayi/CS3316 强化学习/image/image-20250224161338056.png?raw=true)
+![image-20250224161338056](https://github.com/jasminejijiayi/SJTU-Courses/CS3316 强化学习/image/image-20250224161338056.png?raw=true)
 
 改变强化学习的范式 -- 目标 default goal ：maximum argument prediction reward function
 
 具身智能 VRA model 写论文 LLMs -- prompt --Agent
 
-![image-20250224161637003](https://github.com/jasminejijiayi/CS3316 强化学习/image/image-20250224161637003.png?raw=true)
+![image-20250224161637003](https://github.com/jasminejijiayi/SJTU-Courses/CS3316 强化学习/image/image-20250224161637003.png?raw=true)
 
 achieve goal1 上层产生goal，下层产生action和新的goal
 
-![image-20250224161740712](https://github.com/jasminejijiayi/CS3316 强化学习/image/image-20250224161740712.png?raw=true)
+![image-20250224161740712](https://github.com/jasminejijiayi/SJTU-Courses/CS3316 强化学习/image/image-20250224161740712.png?raw=true)
 
 Imitation Learning： 调goal本身：人为驾驶车辆轨迹数据：policy 不如Experts
 
 逆向学到reward function -- 正向强化学习-- tune --训练（RHLF）
 
-![image-20250224161954946](https://github.com/jasminejijiayi/CS3316 强化学习/image/image-20250224161954946.png?raw=true)
+![image-20250224161954946](https://github.com/jasminejijiayi/SJTU-Courses/CS3316 强化学习/image/image-20250224161954946.png?raw=true)
 
 London 做的极致 轨迹数据--逆向强化学习/模仿学习 -- 指导驾驶策略-- action
 
-![image-20250224162127959](https://github.com/jasminejijiayi/CS3316 强化学习/image/image-20250224162127959.png?raw=true)
+![image-20250224162127959](https://github.com/jasminejijiayi/SJTU-Courses/CS3316 强化学习/image/image-20250224162127959.png?raw=true)
 
 其他智能体正在学习 - non -stationary（环境也在变，对于每一个智能体而言都在变/博弈）/ dynamic（state tra）
 
-![image-20250224162304826](https://github.com/jasminejijiayi/CS3316 强化学习/image/image-20250224162304826.png?raw=true)
+![image-20250224162304826](https://github.com/jasminejijiayi/SJTU-Courses/CS3316 强化学习/image/image-20250224162304826.png?raw=true)
 
 
 
-![image-20250224162400151](https://github.com/jasminejijiayi/CS3316 强化学习/image/image-20250224162400151.png?raw=true)
+![image-20250224162400151](https://github.com/jasminejijiayi/SJTU-Courses/CS3316 强化学习/image/image-20250224162400151.png?raw=true)
 
 
 
-![image-20250224162423951](https://github.com/jasminejijiayi/CS3316 强化学习/image/image-20250224162423951.png?raw=true)
+![image-20250224162423951](https://github.com/jasminejijiayi/SJTU-Courses/CS3316 强化学习/image/image-20250224162423951.png?raw=true)
 
 优化过程不适合跨任务泛化/NLP 大sequence model基于范式做泛化
 
@@ -105,7 +105,7 @@ GPT-4  Technical Report
 
 
 
-![image-20250224170436108](https://github.com/jasminejijiayi/CS3316 强化学习/image/image-20250224170436108.png?raw=true)
+![image-20250224170436108](https://github.com/jasminejijiayi/SJTU-Courses/CS3316 强化学习/image/image-20250224170436108.png?raw=true)
 
 DQN比MLA的创新弱多了
 
@@ -127,7 +127,7 @@ Agent== LLM + interaction from fine-tuning + 交互环境（与调prompt无关�
 
 强化学习的data来自于环境和智能体的交互/Agent 等级比较高/interaction产生新的知识 trade-off
 
-![image-20250224171426347](https://github.com/jasminejijiayi/CS3316 强化学习/image/image-20250224171426347.png?raw=true)
+![image-20250224171426347](https://github.com/jasminejijiayi/SJTU-Courses/CS3316 强化学习/image/image-20250224171426347.png?raw=true)
 
 舒适区（利用最大化但不容易以最高速率变强） 
 
@@ -135,13 +135,13 @@ Agent== LLM + interaction from fine-tuning + 交互环境（与调prompt无关�
 
 T型人才：视野宽，某一领域精深
 
-![image-20250224171803797](https://github.com/jasminejijiayi/CS3316 强化学习/image/image-20250224171803797.png?raw=true)
+![image-20250224171803797](https://github.com/jasminejijiayi/SJTU-Courses/CS3316 强化学习/image/image-20250224171803797.png?raw=true)
 
 多臂老虎机（multi-armed bandit）问题的形式化描述
 
 online learning
 
-![image-20250224171931453](https://github.com/jasminejijiayi/CS3316 强化学习/image/image-20250224171931453.png?raw=true)
+![image-20250224171931453](https://github.com/jasminejijiayi/SJTU-Courses/CS3316 强化学习/image/image-20250224171931453.png?raw=true)
 
 无state，只有认知（information state） 对于R（reward）的认知
 
@@ -149,21 +149,21 @@ online learning
 
 which arm to take
 
-![image-20250224172145211](https://github.com/jasminejijiayi/CS3316 强化学习/image/image-20250224172145211.png?raw=true)
+![image-20250224172145211](https://github.com/jasminejijiayi/SJTU-Courses/CS3316 强化学习/image/image-20250224172145211.png?raw=true)
 
-![image-20250224172211267](https://github.com/jasminejijiayi/CS3316 强化学习/image/image-20250224172211267.png?raw=true)
+![image-20250224172211267](https://github.com/jasminejijiayi/SJTU-Courses/CS3316 强化学习/image/image-20250224172211267.png?raw=true)
 
-![image-20250224172258883](https://github.com/jasminejijiayi/CS3316 强化学习/image/image-20250224172258883.png?raw=true)
+![image-20250224172258883](https://github.com/jasminejijiayi/SJTU-Courses/CS3316 强化学习/image/image-20250224172258883.png?raw=true)
 
 懊悔值（相比于最优的收益的差）
 
-![image-20250224172446204](https://github.com/jasminejijiayi/CS3316 强化学习/image/image-20250224172446204.png?raw=true)
+![image-20250224172446204](https://github.com/jasminejijiayi/SJTU-Courses/CS3316 强化学习/image/image-20250224172446204.png?raw=true)
 
 trade-off sublinear regret 下界是log t
 
 distribution很接近，则更难区分出来
 
-![image-20250224172732253](https://github.com/jasminejijiayi/CS3316 强化学习/image/image-20250224172732253.png?raw=true)
+![image-20250224172732253](https://github.com/jasminejijiayi/SJTU-Courses/CS3316 强化学习/image/image-20250224172732253.png?raw=true)
 
 ε -greedy
 
@@ -171,34 +171,34 @@ distribution很接近，则更难区分出来
 
 ε -greedy policy to uniform / 积累了稳定的regret -- 衰减regret（exploration）
 
-![image-20250224172936444](https://github.com/jasminejijiayi/CS3316 强化学习/image/image-20250224172936444.png?raw=true)
+![image-20250224172936444](https://github.com/jasminejijiayi/SJTU-Courses/CS3316 强化学习/image/image-20250224172936444.png?raw=true)
 
-![image-20250224173140468](https://github.com/jasminejijiayi/CS3316 强化学习/image/image-20250224173140468.png?raw=true)
+![image-20250224173140468](https://github.com/jasminejijiayi/SJTU-Courses/CS3316 强化学习/image/image-20250224173140468.png?raw=true)
 
 Naive method
 
 New：早期
 
-![image-20250224173208203](https://github.com/jasminejijiayi/CS3316 强化学习/image/image-20250224173208203.png?raw=true)
+![image-20250224173208203](https://github.com/jasminejijiayi/SJTU-Courses/CS3316 强化学习/image/image-20250224173208203.png?raw=true)
 
-![image-20250224173313126](https://github.com/jasminejijiayi/CS3316 强化学习/image/image-20250224173313126.png?raw=true)
+![image-20250224173313126](https://github.com/jasminejijiayi/SJTU-Courses/CS3316 强化学习/image/image-20250224173313126.png?raw=true)
 
 不确定性的测度
 
-![image-20250224173406341](https://github.com/jasminejijiayi/CS3316 强化学习/image/image-20250224173406341.png?raw=true)
+![image-20250224173406341](https://github.com/jasminejijiayi/SJTU-Courses/CS3316 强化学习/image/image-20250224173406341.png?raw=true)
 
 Standard Deviation
 
 Sub-linear regret
 
-![image-20250224173520555](https://github.com/jasminejijiayi/CS3316 强化学习/image/image-20250224173520555.png?raw=true)
+![image-20250224173520555](https://github.com/jasminejijiayi/SJTU-Courses/CS3316 强化学习/image/image-20250224173520555.png?raw=true)
 
-![image-20250224173740349](https://github.com/jasminejijiayi/CS3316 强化学习/image/image-20250224173740349.png?raw=true)
+![image-20250224173740349](https://github.com/jasminejijiayi/SJTU-Courses/CS3316 强化学习/image/image-20250224173740349.png?raw=true)
 
-![image-20250224173918153](https://github.com/jasminejijiayi/CS3316 强化学习/image/image-20250224173918153.png?raw=true)
+![image-20250224173918153](https://github.com/jasminejijiayi/SJTU-Courses/CS3316 强化学习/image/image-20250224173918153.png?raw=true)
 
 采样范式一致
 
-![image-20250224174009421](https://github.com/jasminejijiayi/CS3316 强化学习/image/image-20250224174009421.png?raw=true)
+![image-20250224174009421](https://github.com/jasminejijiayi/SJTU-Courses/CS3316 强化学习/image/image-20250224174009421.png?raw=true)
 
-![image-20250224174140123](https://github.com/jasminejijiayi/CS3316 强化学习/image/image-20250224174140123.png?raw=true)
+![image-20250224174140123](https://github.com/jasminejijiayi/SJTU-Courses/CS3316 强化学习/image/image-20250224174140123.png?raw=true)
