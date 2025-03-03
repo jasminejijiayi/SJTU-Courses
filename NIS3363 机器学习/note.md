@@ -281,3 +281,59 @@ AUC 能够反映特征的好坏，因为：
 ![image](https://github.com/user-attachments/assets/60610022-a58e-4df4-898c-62e16f28e573)
 ![image](https://github.com/user-attachments/assets/7513c29c-8782-4cd9-8c86-86904d53160f)
 
+
+
+Week3 2025.03.03
+
+![image-20250303100405360](C:\Users\15508\AppData\Roaming\Typora\typora-user-images\image-20250303100405360.png)
+
+AUC = 0.5 ACC取决于分类器
+
+AUC算面积，ACC是一个点
+
+AUC更能表现分类器的好坏；ACC表现的是门限取得好不好。
+
+![image-20250303100930879](C:\Users\15508\AppData\Roaming\Typora\typora-user-images\image-20250303100930879.png)
+
+![image-20250303100956131](C:\Users\15508\AppData\Roaming\Typora\typora-user-images\image-20250303100956131.png)
+
+![image-20250303101035382](C:\Users\15508\AppData\Roaming\Typora\typora-user-images\image-20250303101035382.png)
+
+![image-20250303102644837](C:\Users\15508\AppData\Roaming\Typora\typora-user-images\image-20250303102644837.png)
+
+![image-20250303103956674](C:\Users\15508\AppData\Roaming\Typora\typora-user-images\image-20250303103956674.png)
+
+![image-20250303104200325](C:\Users\15508\AppData\Roaming\Typora\typora-user-images\image-20250303104200325.png)
+
+![image-20250303105921530](C:\Users\15508\AppData\Roaming\Typora\typora-user-images\image-20250303105921530.png)
+
+广义线性回归是有限制的：
+
+1. 显式的
+2. 一一映射
+
+
+
+![image-20250303110424621](C:\Users\15508\AppData\Roaming\Typora\typora-user-images\image-20250303110424621.png)
+
+![image-20250303110719491](C:\Users\15508\AppData\Roaming\Typora\typora-user-images\image-20250303110719491.png)
+
+Hypothesis：噪声和输入是独立无关的，并且是0均值的
+
+![image-20250303111024502](C:\Users\15508\AppData\Roaming\Typora\typora-user-images\image-20250303111024502.png)
+
+极大似然 == MSE（i.i.d）
+
+![image-20250303111335703](C:\Users\15508\AppData\Roaming\Typora\typora-user-images\image-20250303111335703.png)
+
+![image-20250303111433947](C:\Users\15508\AppData\Roaming\Typora\typora-user-images\image-20250303111433947.png)
+
+![image-20250303111843128](C:\Users\15508\AppData\Roaming\Typora\typora-user-images\image-20250303111843128.png)
+
+![image-20250303111952110](C:\Users\15508\AppData\Roaming\Typora\typora-user-images\image-20250303111952110.png)
+
+![image-20250303112043409](C:\Users\15508\AppData\Roaming\Typora\typora-user-images\image-20250303112043409.png)
+
+![image-20250303112432884](C:\Users\15508\AppData\Roaming\Typora\typora-user-images\image-20250303112432884.png)
+
+![image-20250303113226577](C:\Users\15508\AppData\Roaming\Typora\typora-user-images\image-20250303113226577.png)
