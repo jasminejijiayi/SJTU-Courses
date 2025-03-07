@@ -1,6 +1,6 @@
-![image-20250225075737193](image\image-20250225075737193.png)
+![image-20250225075737193](D:\SJTU\SJTU-Courses\typora-user-images\image-20250225075737193.png)
 
-![image-20250225080918463](image\image-20250225080918463.png)
+![image-20250225080918463](D:\SJTU\SJTU-Courses\typora-user-images\image-20250225080918463.png)
 
 generalization 代表模型represent 通用的feature 右边的模型虽然学到了各种细节，但未能学习数据的规律，在泛化性方面：低次> 高次 simple >difficult 需要对模型的复杂度进行控制
 
@@ -36,7 +36,7 @@ underfitting VS overfitting （模型的复杂度/相对于数据而言）
 
 措施4：正则化（Regularization)
 
-![image-20250225083427115](image\image-20250225083427115.png)
+![image-20250225083427115](D:\SJTU\SJTU-Courses\typora-user-images\image-20250225083427115.png)
 
 2范数 1范数
 
@@ -60,23 +60,23 @@ regression 预测，归因分析，控制
 Loss Function：MSE
 
 improve--- GD
-![image-20250225090211823](image\image-20250225090211823.png)
+![image-20250225090211823](D:\SJTU\SJTU-Courses\typora-user-images\image-20250225090211823.png)
 
-![image-20250225090645577](image\image-20250225090645577.png)
+![image-20250225090645577](D:\SJTU\SJTU-Courses\typora-user-images\image-20250225090645577.png)
 
-![image-20250225091239435](image\image-20250225091239435.png)
+![image-20250225091239435](D:\SJTU\SJTU-Courses\typora-user-images\image-20250225091239435.png)
 
-![image-20250225091719107](image\image-20250225091719107.png)
+![image-20250225091719107](D:\SJTU\SJTU-Courses\typora-user-images\image-20250225091719107.png)
 
-![image-20250225092107238](image\image-20250225092107238.png)
+![image-20250225092107238](D:\SJTU\SJTU-Courses\typora-user-images\image-20250225092107238.png)
 
 解析方法中如果不可逆，则需要GD来求解 -- 正则化（对损失函数引入一个惩罚项）
 
-![image-20250225092700246](image\image-20250225092700246.png)
+![image-20250225092700246](D:\SJTU\SJTU-Courses\typora-user-images\image-20250225092700246.png)
 
 正则化: 模型惩罚-- 数据增强
 
-![image-20250225093223923](image\image-20250225093223923.png)
+![image-20250225093223923](D:\SJTU\SJTU-Courses\typora-user-images\image-20250225093223923.png)
 
 
 
